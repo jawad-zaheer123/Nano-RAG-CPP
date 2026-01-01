@@ -44,7 +44,7 @@ docker run -it --rm \
   -e TZ="Asia/Kolkata" \
   -v ~/Desktop/Jarvis_Output:/app/output \
   -v /PATH/TO/YOUR/MODEL.gguf:/app/models/model.gguf \
-  your_username/jarvis-cpp:latest
+  hitesh917/jarvis-cpp:latest
 ```
 *NOTE : Replace /PATH/TO/YOUR/MODEL.gguf with the actual location*
 
